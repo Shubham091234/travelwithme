@@ -566,7 +566,7 @@ header .search-bar-container label:hover{
 }
 
 .footer{
-  background:#333;
+  background:#ff5252;
 }
 
 .footer .box-container{
@@ -615,7 +615,7 @@ header .search-bar-container label:hover{
 }
 
 .footer .credit span{
-  color:var(--orange);
+  color:#FFA500;
 }
 
 
