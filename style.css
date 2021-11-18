@@ -116,7 +116,7 @@ header .search-bar-container{
   position: absolute;
   top:100%; left: 0; right:0;
   padding:1.5rem 2rem;
-  background:#333;
+  background:var(--orange);
   border-top: .1rem solid rgba(255,255,255,.2);
   display: flex;
   align-items: center;
@@ -664,7 +664,7 @@ header .search-bar-container label:hover{
   header .navbar{
     position: absolute;
     top:100%; right:0; left: 0;
-    background: #333;
+    background: var(--orange);
     border-top: .1rem solid rgba(255,255,255,.2);
     padding:1rem 2rem;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -679,7 +679,7 @@ header .search-bar-container label:hover{
     border-radius: .5rem;
     padding:1rem;
     margin:1.5rem 0;
-    background:#222;
+    background:var(--orange);
   }
   .contact .row .image img{
     width:65%;
@@ -730,12 +730,17 @@ padding: .7rem;
 }
 
   .home .video-container video {
-      object-fit:fill ;
+
+
+      height: 85%;
+      width:100%;
+      object-fit: fill;
+    }
   }
 
   .contact .row .image img{
     width:60%;
-   margin-left: 10rem;
+   margin-left: 8rem;
   }
 
 
